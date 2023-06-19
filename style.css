@@ -1,5 +1,5 @@
 body {
-    font-family: 'Cousine', monospace;
+    font-family: 'Noto Serif';
     text-align: center;
     min-height: 100%;
     margin: 10%;
@@ -34,21 +34,35 @@ a {
     bottom: 10%;
 }
 
+a:hover {
+    color: #fc0053;
+}
+
 @media (prefers-color-scheme: light) {
+    
     body {
         background: #FFF;
-        color: #333;
+        color: #3d3d3d;
+    }
+    
+    h1 {
+        color: #4d1434;
     }
 
     a {
         color: #000000;
     }
+
 }
 
 @media (prefers-color-scheme: dark) {
     body {
-        background: #333;
+        background: #3d3d3d;
         color: #FFF;
+    }
+
+    h1 {
+        color: #fc0053;
     }
 
     a {
